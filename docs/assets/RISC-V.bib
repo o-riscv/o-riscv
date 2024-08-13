@@ -99,16 +99,6 @@
   keywords = {archived}
 }
 
-@misc{CascadeCPUFuzzing,
-  title = {Cascade: {{CPU Fuzzing}} via {{Intricate Program Generation}}},
-  shorttitle = {Cascade},
-  journal = {Computer Security Group},
-  urldate = {2024-05-22},
-  abstract = {TL;DR Cascade is a RISC-V CPU fuzzer that generates valid, long and complex programs, and relies on a termination cascade-effect for bug detection. It detected 37 new bugs (29 new CVEs) in 5 RISC-V CPUs, which is more than all the existing fuzzers, combined. You can read a paper we wrote on Cascade here and{\dots} Read},
-  langid = {american},
-  file = {/Users/u/Zotero/storage/9R4IX9RF/cascade-cpu-fuzzing-via-intricate-program-generation.html}
-}
-
 @inproceedings{chenHyPFuzzFormalAssistedProcessor2023,
   title = {{{HyPFuzz}}: {{Formal-Assisted Processor Fuzzing}}},
   booktitle = {{{USENIX Security}} 2023},
@@ -222,6 +212,39 @@
   keywords = {archived},
   annotation = {https://web.archive.org/web/20240406042319/https://www.youtube.com/},
   file = {/Users/u/Zotero/storage/NA95UKZG/playlist.html}
+}
+
+@inproceedings{gerlachSecurityRISCMicroarchitectural2023,
+  title = {A {{Security RISC}}: {{Microarchitectural Attacks}} on {{Hardware RISC-V CPUs}}},
+  shorttitle = {A {{Security RISC}}},
+  booktitle = {2023 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}})},
+  author = {Gerlach, Lukas and Weber, Daniel and Zhang, Ruiyi and Schwarz, Michael},
+  year = {2023},
+  month = may,
+  pages = {2321--2338},
+  publisher = {IEEE},
+  address = {San Francisco, CA, USA},
+  doi = {10.1109/SP46215.2023.10179399},
+  urldate = {2024-08-05},
+  abstract = {Microarchitectural attacks threaten the security of computer systems even in the absence of software vulnerabilities. Such attacks are well explored on x86 and ARM CPUs, with a wide range of proposed but not-yet deployed hardware countermeasures. With the standardization of the RISC-V instruction set architecture and the announcement of support for the architecture by major processor vendors, RISC-V CPUs are on the verge of becoming ubiquitous. However, the microarchitectural attack surface of the first commerciallyavailable RISC-V hardware CPUs still needs to be explored.},
+  copyright = {https://doi.org/10.15223/policy-009},
+  isbn = {978-1-66549-336-9},
+  langid = {english},
+  file = {/Users/u/Zotero/storage/8C28VRD7/Gerlach et al. - 2023 - A Security RISC Microarchitectural Attacks on Hardware RISC-V CPUs.pdf}
+}
+
+@misc{GitHubChryshRiscv_exploitation,
+  title = {{{GitHub}} - Chrysh/Riscv\_exploitation: {{Collection}} of {{RISC-V}} Exploits},
+  urldate = {2024-08-05},
+  howpublished = {https://github.com/chrysh/riscv\_exploitation},
+  file = {/Users/u/Zotero/storage/Y6Q3G728/riscv_exploitation.html}
+}
+
+@misc{GitHubCispaSecurityRISC,
+  title = {{{GitHub}} - Cispa/{{Security-RISC}}: {{Proof-of-concept}} Implementation for the Paper "{{A Security RISC}}: {{Microarchitectural Attacks}} on {{Hardware RISC-V CPUs}}" ({{IEEE S}}\&{{P}} 2023)},
+  urldate = {2024-08-05},
+  howpublished = {https://github.com/cispa/Security-RISC},
+  file = {/Users/u/Zotero/storage/YX9NA26D/Security-RISC.html}
 }
 
 @misc{goldmanHowSecureAre2023,
@@ -346,6 +369,18 @@
   file = {/Users/u/Zotero/storage/EIPJTAI9/Linton Salmon - 2017 - A Perspective on the Role of Open-Source IP In Gov.pdf}
 }
 
+@misc{lukasgerlachSecurityRISCState2024,
+  title = {A {{Security RISC}}? {{The State}} of {{Microarchitectural Attacks}} on {{RISC-V}}},
+  shorttitle = {A {{Security RISC}}?},
+  author = {{Lukas Gerlach} and {Michael Schwarz} and {Daniel Weber}},
+  year = {2024},
+  month = mar,
+  address = {London},
+  urldate = {2024-08-05},
+  abstract = {Microarchitectural attacks threaten the security of computer systems even in the absence of software vulnerabilities. While x86 and ARM CPUs have been extensively studied, the rising popularity of RISC-V CPUs demands a thorough examination of their microarchitectural attack surface. With the standardization of the RISC-V instruction set architecture and the announcement of support for the architecture by major processor vendors, RISC-V CPUs are on the verge of becoming ubiquitous. In this talk, we will show a systematic investigation of the microarchitectural attack surface on the first commercially-available 64-bit hardware RISC-V CPUs... By: Lukas Gerlach , Michael Schwarz , Daniel Weber Full Abstract and Presentation Materials: https://www.blackhat.com/eu-23/briefi...},
+  file = {/Users/u/Zotero/storage/XZCZ4R9Q/EU-23-Gerlach-A-Security-RISC-The-State-of-Microarchitectural-Attacks-on-RISC-V.pdf}
+}
+
 @misc{luSurveyRISCVSecurity2021,
   title = {A {{Survey}} on {{RISC-V Security}}: {{Hardware}} and {{Architecture}}},
   shorttitle = {A {{Survey}} on {{RISC-V Security}}},
@@ -358,7 +393,7 @@
   doi = {10.48550/arXiv.2107.04175},
   urldate = {2024-04-06},
   abstract = {The Internet of Things (IoT) is an ongoing technological revolution. Embedded processors are the processing engines of smart IoT devices. For decades, these processors were mainly based on the Arm instruction set architecture (ISA). In recent years, the free and open RISC-V ISA standard has attracted the attention of industry and academia and is becoming the mainstream. Data security and user privacy protection are common challenges faced by all IoT devices. In order to deal with foreseeable security threats, the RISC-V community is studying security solutions aimed at achieving a root of trust (RoT) and ensuring that sensitive information on RISC-V devices is not tampered with or leaked. Many RISC-V security research projects are underway, but the academic community has not yet conducted a comprehensive survey of RISC-V security solutions. In order to fill this research gap, this paper presents an in-depth survey on RISC-V security technologies. This paper summarizes the representative security mechanisms of RISC-V hardware and architecture. Based on our survey, we predict the future research and development directions of RISC-V security. We hope that our research can inspire RISC-V researchers and developers.},
-  archiveprefix = {arxiv},
+  archiveprefix = {arXiv},
   keywords = {archived},
   file = {/Users/u/Zotero/storage/7I5KHTSX/Lu - 2021 - A Survey on RISC-V Security Hardware and Architec.pdf;/Users/u/Zotero/storage/WXIQEP8M/2107.html}
 }
@@ -450,6 +485,16 @@
   langid = {english}
 }
 
+@misc{quastExploitingBufferOverflows2019,
+  title = {Exploiting {{Buffer Overflows}} on {{RISC-V}} - {{Christina Quast}}, {{None}}},
+  author = {Quast, Christina},
+  year = {2019},
+  month = jul,
+  address = {China},
+  urldate = {2024-08-05},
+  abstract = {Join us for Kubernetes Forums Seoul, Sydney, Bengaluru and Delhi - learn more at kubecon.io Don't miss KubeCon + CloudNativeCon 2020 events in Amsterdam March 30 - April 2, Shanghai July 28-30 and Boston November 17-20! Learn more at kubecon.io. The conference features presentations from developers and end users of Kubernetes, Prometheus, Envoy, and all of the other CNCF-hosted projects Exploiting Buffer Overflows on RISC-V - Christina Quast, None  Almost 10 years ago, work on the RISC-V ISA specification began. Since around a year, we had the first hardware showing up, and since this year, this hardware is even affordable. With this development, the first products and also the first exploits will show up.   This talk will give an introduction to the RISC-V architecture and how exploitation differs from Intel and ARM. Afterward, examples of how to overflow a buffer, create shellcode in assembler language, and finally, how to perform ret2libc are shown. Basic understanding of assembly and C is a plus.\&nbsp;  https://sched.co/Nrsm}
+}
+
 @book{reisRISCVAssemblyLanguage2019,
   title = {{{RISC-V Assembly Language}}},
   author = {Reis, Anthony J. Dos},
@@ -472,8 +517,9 @@
   file = {/Users/u/Zotero/storage/IJGX8AWK/cloud-v-accelerating-risc-v-software-development-with-10xengineers.html}
 }
 
-@misc{RISCVLandscape,
+@misc{risc-vinternationalRISCVLandscape,
   title = {{{RISC-V Landscape}}},
+  author = {{RISC-V International}},
   journal = {Landscape},
   urldate = {2024-05-22},
   abstract = {The Landscape organizes all RISC-V native open source projects and proprietary products into categories, providing an overview of the current ecosystem},
@@ -704,14 +750,6 @@
   file = {/Users/u/Zotero/storage/MRUGKJ33/Solt et al. - Cascade CPU Fuzzing via Intricate Program Generat.pdf}
 }
 
-@article{soltCascadeCPUFuzzinga,
-  title = {Cascade: {{CPU Fuzzing}} via {{Intricate Program Generation}}},
-  author = {Solt, Flavien and {Ceesay-Seitz}, Katharina and Razavi, Kaveh},
-  abstract = {Generating interesting test cases for CPU fuzzing is akin to generating programs that exercise unusual states inside the CPU. The performance of CPU fuzzing is heavily influenced by the quality of these programs and by the overhead of bug detection. Our analysis of existing state-of-the-art CPU fuzzers shows that they generate programs that are either overly simple or execute a small fraction of their instructions due to invalid control flows. Combined with expensive instruction-granular bug detection mechanisms, this leads to inefficient fuzzing campaigns. We present Cascade, a new approach for generating valid RISC-V programs of arbitrary length with highly randomized and interdependent control and data flows. Cascade relies on a new technique called asymmetric ISA pre-simulation for entangling control flows with data flows when generating programs. This entanglement results in non-termination when a program triggers a bug in the target CPU, enabling Cascade to detect a CPU bug at program granularity without introducing any runtime overhead. Our evaluation shows that long Cascade programs are more effective in exercising the CPU's internal design. Cascade achieves 28.2x to 97x more coverage than the state-of-the-art CPU fuzzers and uncovers 37 new bugs (28 new CVEs) in 5 RISC-V CPUs with varying degrees of complexity. The programs that trigger these bugs are long and intricate, impeding triaging. To address this challenge, Cascade features an automated pruning method that reduces a program to a minimal number of instructions that trigger the bug.},
-  langid = {english},
-  file = {/Users/u/Zotero/storage/ADSMEAQU/Solt et al. - Cascade CPU Fuzzing via Intricate Program Generat.pdf}
-}
-
 @misc{SpecificationsRISCVInternational,
   title = {Specifications -- {{RISC-V International}}},
   urldate = {2024-05-22},
@@ -719,6 +757,19 @@
   keywords = {archived},
   annotation = {https://web.archive.org/web/20240522065734/https://riscv.org/technical/specifications/},
   file = {/Users/u/Zotero/storage/6P7GE9ZT/specifications.html}
+}
+
+@techreport{Thomas2024RISCVuzz,
+  type = {Technical {{Report}}},
+  title = {{{RISCVuzz}}: {{Discovering Architectural CPU Vulnerabilities}} via {{Differential Hardware Fuzzing}}},
+  shorttitle = {{{GhostWrite}}},
+  author = {Thomas, Fabian and Hetterich, Lorenz and Zhang, Ruiyi and Weber, Daniel and Gerlach, Lukas and Schwarz, Michael},
+  year = {2024},
+  number = {2024-08},
+  address = {Germany},
+  institution = {CISPA},
+  keywords = {archived},
+  file = {/Users/u/Zotero/storage/9UX423GF/Thomas et al. - 2024 - RISCVuzz Discovering Architectural CPU Vulnerabil.pdf}
 }
 
 @inproceedings{trippelFuzzingHardwareSoftware2022,
